@@ -38,6 +38,9 @@ to run this app on your computer please follow steps,
 * now run `npm start` to start application on http://localhost:3000
 * open http://localhost:3000 in your browser and start testing :)
 
+  
+first thing you want to do is (login as admin and create payment method)
+if you register as a user , you cant create ant transactions if theres no payment methods.
 ----------------------------
 
 ## how to setup your database
@@ -67,6 +70,7 @@ APP_URL={API_URL}
 JWT_TTL=120 # for 2 hours
 
 ```
+ 
 
 ### note:
 This version of the application does not specify the allowed currencies,
