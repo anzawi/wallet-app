@@ -12,6 +12,16 @@ so you can open any file and read comments if you want to know how things going.
 #### client directory -> Front-End (APP)
 
 ## run this app
+  
+  ### Requriments:
+  * composer
+  * NodeJs v17.2.0+
+  * PHP v7.4.0+
+  * Database :
+    * Mysql v5.7+
+    * PostgreSQL 9.6+
+    * SQL Server 2017+
+  
 to run this app on your computer please follow steps,
 
 * clone this repo or download it.
@@ -40,7 +50,7 @@ to run this app on your computer please follow steps,
 
   
 first thing you want to do is (login as admin and create payment method)
-if you register as a user , you cant create ant transactions if theres no payment methods.
+if you register as a user , you cant create any transactions if theres no payment methods.
 ----------------------------
 
 ## how to setup your database
