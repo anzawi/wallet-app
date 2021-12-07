@@ -5,7 +5,9 @@ const UserRoute = ({ children }: { children: JSX.Element }) => {
     let location = useLocation();
     const{userStore} = useStore()
 
-    if (userStore.isAdmin) {
+    if (!userStore.isLoggedin) {
+        return <Navigate to="/" state={{ from: location }} />;
+    } else if (userStore.isAdmin) {
         return <Navigate to="/dashboard" state={{ from: location }} />;
     }
 
