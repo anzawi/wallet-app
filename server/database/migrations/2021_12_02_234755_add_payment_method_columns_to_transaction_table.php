@@ -14,11 +14,13 @@ class AddPaymentMethodColumnsToTransactionTable extends Migration
     public function up()
     {
         Schema::table('transactions', function (Blueprint $table) {
-            $table->integer('payment_id');
+            $table->bigInteger('payment_id')->unsigned();
 
             $table->foreign('payment_id')
                 ->references('id')
                 ->on('payments');
+				
+				$table->index('payment_id');
         });
     }
 
