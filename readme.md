@@ -34,7 +34,18 @@ to run this app on your computer please follow steps,
 * run `php artisan key:generate` to generate app key
 * run `php artisan jwt:secret` to generate JWT key
 * run `php artisan migrate` to migrate tables to database
-* run `php artisan db:seed` to create admin user with {name: Admin, email: admin@admin.com, passowrd: admin123}
+* run `php artisan db:seed` to insert some data into database
+    ```txt
+      # create user with admin persmissions
+       {
+          name: Admin, 
+          email: admin@admin.com, 
+          passowrd: admin123
+        }
+                              
+    # create init payment method
+       
+    ```
 * run `php artisan storage:link` to link storage with public directory.
 * now your api is ready to deploy
 * you can use (homestead or valet) or for fast you can run `php artisan serve` now your api in http://localhost:8000
@@ -51,6 +62,7 @@ to run this app on your computer please follow steps,
   
 first thing you want to do is (login as admin and create payment method)
 if you register as a user , you cant create any transactions if theres no payment methods.
+                              
 ----------------------------
 
 ## how to setup your database
