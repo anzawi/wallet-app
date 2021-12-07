@@ -107,3 +107,11 @@ Client section:
 admins approval.  
 • The client can see the wallet balance and he can see the transactions he requested with the 
 status. 
+                              
+                              
+--------------------
+                              
+when we have only 2 types of users (admin/user) I just make it simple, so I created very simple permission roles
+its column called (is_admin) in users table.
+
+I know its basic but it does the trick here 
