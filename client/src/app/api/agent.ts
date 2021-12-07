@@ -10,7 +10,7 @@ import Transaction, {TransactionFormValues, TransactionTotal} from "../models/Tr
 import {Wallet} from "../models/Wallet";
 
 // set default api url
-axios.defaults.baseURL = 'https://localhost:8000/api'
+axios.defaults.baseURL = 'http://localhost:8000/api'
 
 // change request configuration
 axios.interceptors.request.use(config => {
