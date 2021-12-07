@@ -15,7 +15,7 @@ so you can open any file and read comments if you want to know how things going.
   
   ### Requriments:
   * composer
-  * Node v14.18.1 (v17.2.0 cause errors)
+  * Node >=v14.18.1 <=v16.13.1 (v17.2.0 cause errors)
   * PHP v7.4.0+
   * Database :
     * Mysql v5.7+
